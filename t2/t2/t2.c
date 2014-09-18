@@ -11,11 +11,8 @@ int main ( int argc, char *argv[] )
 	FILE *tiedostoeka;
 	FILE *tiedostotoka;
 
-	char kopio[5];
-	char ekatiedosto[15];
-	char tokatiedosto[15];
 
-	tiedostoeka=fopen("C:/temp/ekatiedosto.txt","r");
+	tiedostoeka=fopen("C:/temp/ekatiedosto.txt","r"),argv[1];
 
 	//tarkistetaan löytyykö ekatiedostoa
 	if (tiedostoeka==NULL) {
@@ -24,11 +21,11 @@ int main ( int argc, char *argv[] )
 	//Jos löytyy, jatketaan eteenpäin
 	else {
 	
-	tiedostotoka=fopen("C:/temp/tokatiedosto.txt","w"); 
+	tiedostotoka=fopen("C:/temp/tokatiedosto.txt","w"),argv[2]; 
 	}
 
+
+	}
 	
 
-	
-}
 

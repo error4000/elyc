@@ -1,9 +1,9 @@
 #include<stdio.h>
 //t2.c |Hannu Kreivi, TYO14SOHJ
-//Kirjoita ohjelma nimeltä kopioi, joka toimii seuraavasti:
+//Kirjoita ohjelma nimelta kopioi, joka toimii seuraavasti:
 //ohjelma suoritetaan komennolla kopioi ekatiedosto tokatiedosto
-//tällöin ekatiedosto kopioituu tokatiedostoon.
-//jos ekatiedostoa ei löydy, tulostuu virheilmoitus
+//talloin ekatiedosto kopioituu tokatiedostoon.
+//jos ekatiedostoa ei loydy, tulostuu virheilmoitus
 
 int main ( int argc, char *argv[] )
 
@@ -12,20 +12,20 @@ int main ( int argc, char *argv[] )
 	FILE *tiedostotoka;
 
 
-	tiedostoeka=fopen("C:/temp/ekatiedosto.txt","r"),argv[1];
+	tiedostoeka=fopen("ekatiedosto.txt","r"),argv[1];
 
-	//tarkistetaan löytyykö ekatiedostoa
+	//tarkistetaan loytyyko ekatiedostoa
 	if (tiedostoeka==NULL) {
 	printf("File [ekatiedosto.txt] not found!");
 	}
-	//Jos löytyy, jatketaan eteenpäin
+	//Jos loytyy, jatketaan eteenpain
 	else {
-	
-	tiedostotoka=fopen("C:/temp/tokatiedosto.txt","w"),argv[2]; 
+
+	tiedostotoka=fopen("tokatiedosto.txt","w"),argv[2];
 	}
 
 
 	}
-	
+
 
 

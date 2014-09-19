@@ -2,9 +2,12 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
-//t4.c | Hannu Kreivi, TYO14SOHJ
-//Kirjoita ohjelma nimeltä laskesanat, joka laskee annetusta tiedostosta sanojen määrän. Tiedostonimi annetaan komentoriviltä. Sanoiksi lasketaan myös yksittäiset merkit ja numerot. 
-//Eli aina kun löytyy välilyönti tai rivinvaihto, alkaa uusi sana. 
+//t5.c | Hannu Kreivi, TYO14SOHJ
+//Kirjoita ohjelma nimeltä laskuri, joka laskee annetusta tiedostosta joko rivien tai sanojen määrän käyttäjän valinnan mukaan. Ohjelmalle voidaan antaa argumentit:
+//tiedostonimi
+//-sanat tai -rivit
+//Eli esim. komento laskuri koe.txt -sanat ilmoittaa montako sanaa on tiedostossa koe.txt 
+//ja komento laskuri koe.txt -rivit ilmoittaa montako riviä on tiedostossa koe.txt 
 
 
 

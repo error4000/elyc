@@ -3,7 +3,7 @@
 //Kirjoita ohjelma nimelta kopioi, joka toimii seuraavasti:
 //ohjelma suoritetaan komennolla kopioi ekatiedosto tokatiedosto
 //talloin ekatiedosto kopioituu tokatiedostoon.
-//jos ekatiedostoa ei loydy, tulostuu virheilmoitus
+//jos ekatiedostoa ei loydy, tulostuu virheilmoitus.
 
 int main ( int argc, char *argv[] )
 
